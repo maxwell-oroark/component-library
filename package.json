@@ -1,7 +1,7 @@
 {
-  "name": "component-library",
+  "name": "simple-react-css-grid",
   "version": "0.1.0",
-  "description": "a react component library",
+  "description": "a react component leveraging the new CSS grid specification",
   "main": "build/index.js",
   "scripts": {
     "build": "babel lib -d build",
