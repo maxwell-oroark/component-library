@@ -1,6 +1,6 @@
 {
   "name": "simple-react-css-grid",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "a react component leveraging the new CSS grid specification",
   "main": "build/index.js",
   "scripts": {
