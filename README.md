@@ -9,12 +9,14 @@ This grid component seeks to leverage the new CSS grid specification in a lightw
       rows={2}
       height={"500px"}
       width={"500px"}>
+      gridItemHeight={"200px"}
+      gridItemWidth={"200px"}
   {
     gridItems.map( item => (
 
     <Item
-      gridItemHeight={item.height || "200px" }
-      gridItemWidth={item.width || "200px" }
+      itemTitle={item.title}
+      itemDescription={item.description}
     />
 
     )
